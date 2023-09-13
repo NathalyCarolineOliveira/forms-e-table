@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+  , initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        #txtNome {
+            background-color: rgb(214, 179, 255);
+            color: white;
+        }
+
+        #txtNome:focus {
+            background-color: rgb(255, 148, 232);
+            color: white;
+        }
+
+        #txtAnimal{
+            background-color:  rgb(214, 179, 255);
+            color: white;
+        }
+
+        #txtEmail{
+            background-color: rgb(214, 179, 255);
+            color: white;
+        }
+
+        #cbkDoce{
+            background-color: rgb(214, 179, 255);
+            color: white;
+        }
+
+        #txtData:focus{
+            background-color: rgb(255, 148, 232);
+            color: white;
+        }
+
+        body{
+            background-color: rgb(190, 183, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <label for="txtNome">Nome: </label>
+        <input type="text" name="txtNome" id="txtNome" value="João">
+        <br>
+        <label for="txtData">Data de nascimento: </label>
+        <input type="date" name="txtData" id="txtData">
+        <br>
+        <label for="txtCor">Cor preferida:</label>
+        <input type="color" name="txtCor" id="txtCor">
+        <br>
+        <label for="txtEmail">e-mail</label>
+        <input type="email" name="txtEmail" id="txtEmail">
+        <br>
+        <label for="txtNum">Idade</label>
+        <input type="number" name="txtNum" id="txtNum">
+        <br>
+        <input type="checkbox" name="ckbEstudande" id="ckbEstudande">
+        <label for="ckbEstudande">É estudante</label>
+
+        <br>
+        <label for="txtAnimal">Animal preferido </label>
+        <input type="password" name="" id="txtAnimal">
+          
+        <br>
+        <label for="txtComida">Comida Favorita</label>
+        <input type="text" name="txtComida" id="txtComida">
+        <br>
+        <input type="checkbox" name="ckbDoce" id="ckbDoce">
+        <label for="ckbDoce">Doce</label>
+
+        <br>
+        <input type="checkbox" name="ckbSalgado" id="ckbSalgado">
+        <label for="ckbSalgado">Salgado</label>
+    </form>
+
+</body>
+
+</html>
